@@ -1,0 +1,377 @@
+
+body {
+  margin: 0;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  color: #888;
+  font-family: "メイリオ", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*header*/
+
+header {
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  line-height: 50px;
+  box-shadow: -1px 1px 1px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+.header-title {
+  float: left;
+}
+
+.header-logo {
+  color: #777;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: 'Dosis', sans-serif;
+  cursor: pointer;
+}
+
+.header-menu-right {
+  float: right;
+}
+
+.header-menu-right li {
+  float: left;
+}
+
+.header-menu-right a {
+  color: #323A45;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.header-menu-right a:hover {
+  color: #5983ff;
+  transition: color .3s;
+}
+
+/*home-section*/
+
+.home-section {
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("/images/IMG_3559.JPG");
+  background-size: cover;
+}
+
+.home-inner {
+  padding-top: 100px;
+  padding-bottom: 420px;
+}
+
+.home-description {
+  margin-top: 0px;
+  opacity:0.7;
+}
+
+.home-description h1 {
+  color:black;
+  font-size:40px;
+  letter-spacing:10px;
+  font-weight:1000;
+}
+.home-description h2 {
+  color:black;
+  font-size:30px;
+  letter-spacing:6px;
+  font-weight:1000;
+}
+
+/*about-section*/
+.about-section{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title{
+  font-size:50px;
+  font-weight:bold;
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+
+.about-inner{
+  height:600px;
+  width:auto;
+  background-color:rgb(200,200,200);
+  border-radius:10px;
+}
+
+.about-img{
+  height:400px;
+  margin-top:100px;
+  padding-bottom:20px;
+  padding-left:20px;
+  transform:rotateZ(90deg);
+  float:left;
+}
+
+.about-me{
+  width:50%;
+  float:left;
+  text-align:center;
+  border-bottom:1px solid black;
+}
+
+.about-me p{
+  font-size:100px;
+}
+
+.career{
+  width:50%;
+  float:left;
+  margin-top:50px;
+}
+
+.career li{
+  font-size:20px;
+  margin-bottom:5px;
+}
+
+
+.about-inner p{
+  font-size:20px;
+}
+
+/*hobby-section*/
+
+.hobby-section{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.change-btn-wrapper {
+  width: 500px;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+.change-btn-wrapper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.prev-btn {
+  cursor: pointer;
+  float: left;
+  display: none;
+}
+
+.next-btn {
+  cursor: pointer;
+  float: right;
+}
+
+.slides {
+  padding: 0;
+}
+
+.slide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.slide img {
+  width: 600px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.index-btn-wrapper {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.index-btn {
+  display: inline-block;
+  color: #4e90af;
+  background-color: #e0f5ff;
+  width: 40px;
+  padding: 6px 0;
+  margin: 0 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.index-btn:hover {
+  color: #fff;
+  background-color: #5cabd0;
+}
+
+.sea-picture{
+  transform:rotateZ(180deg);
+}
+
+/*sns-section*/
+
+.sns-section{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sns-inner{
+  height:200px;
+}
+
+.flowbtn{
+font-family:'Arial',sans-serif;/* 好きなフォントを指定してね */
+border-radius:4px;
+position:relative;
+display:inline-block;
+width:66px;
+height:58px;
+font-size:24px;
+color:#fff!important;
+transition:.5s;
+text-decoration:none;
+box-shadow:0 1px 2px #999;
+}
+.flowbtn i{
+position:relative;
+margin-top:10px;
+}
+/* Twitter */
+.fl_tw1{
+background:#55acee;
+}
+
+/* Twitter */
+.fl_tw1{
+background:#55acee;
+}
+/* Facebook */
+.fl_fb1{
+background:#3b5998;
+}
+
+/* Instagram紫グラデ背景 */
+.insta_btn1{
+background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+overflow:hidden;
+}
+/* Instagramオレンジグラデ背景 */
+.insta_btn1:before{
+content: '';
+position:absolute;
+top:33px;
+left:-20px;
+width:80px;
+height:50px;
+background:-webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+background:radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+}
+
+/* ボタン内テキスト調整 */
+.flowbtn div{
+font-size:11px;
+font-weight:bold;
+letter-spacing:0;
+position:relative;
+margin-top:5px;
+
+}
+/* ボタンマウスホバー時 */
+.flowbtn:hover{
+-webkit-transform:translateY(-5px);
+-ms-transform:translateY(-5px);
+transform:translateY(-5px);
+text-decoration:none;
+}
+/* ulタグの内側余白を０にする */
+ul.snsbtniti{
+padding:0!important;
+}
+/* ボタン全体の位置調整 */
+.snsbtniti{
+display:flex;
+flex-flow:row wrap;
+justify-content:space-around;
+margin-top:30px;
+}
+/* ボタン同士の余白調整 */
+.snsbtniti li{
+flex:0 0 33%;
+text-align:center!important;
+}
+
+/*contact*/
+
+.contact-section{
+  margin: 0 auto;
+  text-align: center;
+  font-size:18px;
+}
+
+.contact-inner{
+  height:600px;
+}
+
+input,textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+.contact-submit{
+  cursor:pointer;
+  background-color:#dee7e;
+  color:black;
+  box-shadow:0 7px #888888;
+}
+
+.contact-submit:active {
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+footer {
+  height: 100px;
+  background-color:#DDDDDD;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 24px;
+  margin-top:50px;
+}
+
+.footer-inner{
+  float:right;
+}
